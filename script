@@ -6,7 +6,7 @@ echo "#####################__Actualizando__"
 sudo apt-get update && sudo apt-get -y upgrade
 
 echo "#####################__Clonando repositorio"
-git clone https://github.com/alejandroferrin/fichajespi.git
+git clone https://github.com/cancabron/fichajespi.git
 
 echo "#####################__Instalando JDK__"
 #sudo apt -y install openjdk-11-jdk
@@ -50,7 +50,7 @@ cd /home/pi/fichajespi
 git clone https://github.com/goodtft/LCD-show.git
 chmod -R 755 LCD-show
 cd LCD-show/
-sudo ./LCD35-show
+sudo ./MHS35-show
 
 echo "#####################__Reinicio necesario__"
 echo "#####################__Ahora apaga la raspberry, instala la pantalla táctil y vuelve a encenderla__"
