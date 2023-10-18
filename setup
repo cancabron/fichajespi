@@ -28,8 +28,6 @@ sudo apt -y install docker-compose
 
 echo "#####################__Instalando vim__"
 sudo apt -y install vim
-echo "#####################__Instalando vnc__"
-sudo apt -y install realvnc-vnc-server realvnc-vnc-viewer
 
 echo "#####################__Compilando app de escritorio__"
 sudo apt -y install maven
